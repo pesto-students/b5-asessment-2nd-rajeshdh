@@ -155,7 +155,7 @@ const reduce = function (callback, initialValue) {
   }
   // Repeat, while k < len
   while (k < len) {
-   // Let Pk be ! ToString(k).
+    // Let Pk be ! ToString(k).
     // Let kPresent be ? HasProperty(O, Pk).
     // If kPresent is true, then
     if (k in O) {
@@ -170,6 +170,7 @@ const reduce = function (callback, initialValue) {
   // Return accumulator. 
   return accumulator;
 }
+
 module.exports = {
   forEach,
   map,
