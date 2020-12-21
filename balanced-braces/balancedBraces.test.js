@@ -1,4 +1,4 @@
-import { balancedBraces } from './balancedBraces';
+const balancedBraces  = require('./balancedBraces.js');
 
 describe('Braces / Brackets / Parentheses', () => {
   test('should tell correctly whether braces opened and closed properly', () => {
